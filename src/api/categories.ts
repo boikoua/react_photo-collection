@@ -1,7 +1,7 @@
-export const categories: { [key: string]: string }[] = [
+export const categories: { id?: number; name: string }[] = [
   { name: 'Все' },
-  { name: 'Море' },
-  { name: 'Горы' },
-  { name: 'Архитектура' },
-  { name: 'Города' },
+  { id: 1, name: 'Море' },
+  { id: 2, name: 'Горы' },
+  { id: 3, name: 'Архитектура' },
+  { id: 4, name: 'Города' },
 ];
